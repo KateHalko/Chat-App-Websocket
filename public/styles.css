@@ -1,0 +1,90 @@
+body{
+    font-family: 'Nunito';
+    background: url(background.jpg) no-repeat; 
+    background-size: cover;
+
+}
+
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #fafafa;
+    background: #f9f9f9;
+}
+
+#chat{
+    max-width: 70ex;
+    margin: 50px auto;
+    
+    
+    border-radius: 4px;
+}
+
+#chat-window{
+    height: 400px;
+    overflow: auto;
+    background: #adffd9ad;
+    box-shadow: 2px 2px 2px rgb(202, 238, 245);
+    border-radius: 4px;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+    
+}
+
+#feedback p{
+ 
+    color: rgb(255, 255, 255);
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #124733;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    background: #dbfaebd7;
+    margin-top: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+   
+    border: 0;
+    display: block;
+    width: 100%;
+    
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+   
+    border-radius: 4px;
+}
+
+button:hover, .button:focus {
+    background: rgba(59, 145, 25, 0.897);
+  }
+button{
+    box-shadow: 2px 2px 2px rgb(202, 238, 245);
+    background: #1ab159;
+
+  
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    margin-top: 10px;
+
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    border-radius: 4px;
+}
